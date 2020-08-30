@@ -9,6 +9,6 @@ describe("#check", () => {
   });
   it("returns false for 79927398716", () => {
     const num = 79927398716;
-    assert.isTrue(check(num));
+    assert.isFalse(check(num));
   });
 });
